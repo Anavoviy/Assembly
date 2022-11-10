@@ -24,7 +24,7 @@ class Program
 
 
 
-        IsRunning isRunning = (IsRunning)assembly;
+        
 
     }
 
