@@ -7,7 +7,8 @@ using ComputerEnums.MotherBoard;
 
 namespace Assemblies
 {
-    internal class MotherBoard
+    public class MotherBoard
     {
+
     }
 }

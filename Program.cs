@@ -20,11 +20,11 @@ class Program
         PowerSupply PS = new();
         ComputerCase computerCase = new();
 
-        Assembly assembly = new("Гор", (ulong)75000, cpu, MB, ram, gpu, cpuCooling, dataStorageDevices, PS, computerCase);
+        Assembly assembly = new Assembly("Гор", (ulong)75000, cpu, MB, ram, gpu, cpuCooling, dataStorageDevices, PS, computerCase);
 
+        
 
-
-        IsRunning isRunning = (IsRunning)assembly;
+        
 
     }
 

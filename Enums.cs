@@ -11,11 +11,9 @@ namespace ComputerEnums
         enum CPUCompany
         {
             Intel,
-            AMD,
-            Baikal,
-            Apple
+            AMD
         }
-        enum CPUSocketIntel
+        enum CPUSocket
         {
             LGA771,
             LGA775,
@@ -31,10 +29,8 @@ namespace ComputerEnums
             LGA2066,
             LGA1151_2,
             LGA1200,
-            LGA1700
-        }
-        enum CPUSocketAMD
-        {
+            LGA1700,
+
             AM2,
             AM2_,
             AM3,
@@ -48,19 +44,18 @@ namespace ComputerEnums
             TRX4,
             AM5
         }
-        enum CPUFamilyIntel
+       
+        enum CPUFamily
         {
             Atom,
             Celeron,
             Pentium,
-            i3,
-            i5,
-            i7,
-            i9,
-            Xeon
-        }
-        enum CPUFamilyAMD
-        {
+            Core_i3,
+            Core_i5,
+            Core_i7,
+            Core_i9,
+            Xeon,
+
             Athlon,
             Phenom,
             FirePro,
@@ -73,6 +68,7 @@ namespace ComputerEnums
             Ryzen_9,
             Ryzen_Threadripper
         }
+        
     }
     namespace MotherBoard
     {
@@ -80,7 +76,22 @@ namespace ComputerEnums
     }
     namespace RAM
     {
+        enum RAMType
+        {
+            DDR,
+            DDR2,
+            DDR3,
+            DDR4,
+            DDR5,
 
+            GDDR,
+            GDDR2,
+            GDDR3,
+            GDDR4,
+            GDDR5,
+            GDDR6,
+            GDDR6X
+        }
     }
     namespace GPU
     {
